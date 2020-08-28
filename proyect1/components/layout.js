@@ -23,9 +23,14 @@ const LayOut = ({children}) => {
                     </nav>
                 </div>
             </header>
-            <div>
+            <div className={styles.contentContainer}>
                 {children}
             </div>
+            <footer>
+                <div>
+                    <h2>Footer</h2>
+                </div>
+            </footer>
         </Fragment>
     )
 }

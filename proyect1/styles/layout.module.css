@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     min-width: 600px;;
+    position: sticky;
+    top: 0;
 }
 
 .container {
@@ -50,4 +52,11 @@
 
 .link:hover {
     color: #000000;
+}
+
+.contentContainer {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    width: 80em;
+    margin: 0 auto;
 }
